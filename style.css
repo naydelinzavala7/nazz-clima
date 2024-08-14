@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background: linear-gradient(0deg, rgb(0, 102, 190) 0%, rgb(187, 218, 245) 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    color: #DBAFA0;
+}
+.btnget{
+    background-color: rgb(8, 36, 61);
+    color: white;
+    border-radius: 35px;
+}
+.btnget:hover{
+    transform: scale(1.1);
+    color: white;
+}
