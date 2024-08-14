@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="/style.css">
     <title>myWeather</title>
   </head>
   <body>
-    <section class="vh-100" style="background-color: #4B515D;">
+    <section class="vh-100">
         <div class="container py-5 h-100">
           
           <div class="row d-flex justify-content-center align-items-center h-100">
@@ -19,19 +20,19 @@
                        id="city" 
                        style="width: 100%; margin: 5px"
                        class="form-control"
+                       placeholder="Municio,estado,país"
                 >
               </div>
               <div>
                 <button style="width: 100%; margin: 5px;" 
-                        class="btn btn-success" 
+                        class="btn btnget" 
                         id="btnGetWeather">
                   Get Weather 🌤
                 </button>
               </div>
-              <div class="card" style="color: #4B515D; border-radius: 35px;">
+              <div class="card" style="color: #4B515D; border-radius: 35px; margin-top: 40px;">
                 <div class="card-body p-4">
-      
-                  <div class="d-flex">
+                  <div class="d-flex" style="margin: 20px;">
                     <h6 class="flex-grow-1" id="newCity">Warsaw</h6>
                     <h6 id="hora">15:07</h6>
                   </div>
